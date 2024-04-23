@@ -2,9 +2,9 @@
 
 
 :root {
-	--fundo: #38eb18;		
-	--verde: #15eda5;
-	--branco: #750bf6;
+	--fundo: #030c4f;		
+	--azul: #15eda5;
+	--roxo: #750bf6;
 	--botao-on: #3A375E;
 	--botao-off: rgba(58, 55, 94, 0.5);
 	--texto-fundo: rgba(58, 55, 94, 0.3);	/*definindo variáveis*/
@@ -12,7 +12,7 @@
 
 body {
 	background-color: var(--fundo);  /*configurando o body */
-	color: var(--branco);
+	color: var(--roxo);
 	font-family: "Chakra Petch", sans-serif;
 
 	}	
@@ -34,13 +34,13 @@ body {
 }
 
 .titulo-principal span {
-	color: var(--verde);  /* trocando cor do _ */
+	color: var(--azul);  /* trocando cor do _ */
 }
 
 .botao {
 	font-family: "Chakra Petch", sans-serif; /* definindo a fonte usada no botao */
 	background-color: var(--botao-off); /* cor do botao "desligado" */
-	color: var(--branco); 
+	color: var(--roxo); 
 	display: flex; /* cor da fonte */
 	justify-content: center;
 	padding: 1em;
@@ -56,7 +56,7 @@ body {
 
 .botao.ativo {
 	background-color: var(--botao-on);	/* definindo cores do botão ativo*/
-	border-bottom: 4px solid var(--verde);
+	border-bottom: 4px solid var(--azul);
 	}
 
 .botoes {
@@ -84,7 +84,7 @@ body {
 
 .aba-conteudo-titulo-secundario{
 	text-align: center;
-	color: var(--verde);
+	color: var(--azul);
 	text-transform: uppercase;
 }
 
